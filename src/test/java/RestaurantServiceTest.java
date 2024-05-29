@@ -1,5 +1,4 @@
 import java.time.LocalTime;
-
 import org.junit.jupiter.api.Assertions;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
@@ -40,10 +39,6 @@ class RestaurantServiceTest {
         /*assertThrows(restaurantNotFoundException.class, () -> service.findRestaurantByName("Barry caffee"))*/
 }
     //<<<<<<<<<<<<<<<<<<<<SEARCHING>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-
-
 
     //>>>>>>>>>>>>>>>>>>>>>>ADMIN: ADDING & REMOVING RESTAURANTS<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
     @Test
